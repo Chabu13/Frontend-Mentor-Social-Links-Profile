@@ -1,0 +1,55 @@
+p {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 375px;
+  height: 580px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.image {
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.green {
+    color: hsl(75, 94%, 57%);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.one, .two, .three, .four, .five {
+    background-color: hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 11px; text-align: center; color: hsl(0, 0%, 100%)}
+.attribution a { color: hsl(0, 0%, 100%); }
